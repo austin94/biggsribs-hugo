@@ -1,0 +1,13 @@
+{{ define "main" }}
+
+{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title) }}
+
+<div class="mw6 mt3 mb3 center">
+  {{ with .Params }}
+    {{ range .menus }}
+      <img class="w-100 mw-100" src="{{.image}}" alt="Menu image" />
+    {{ end }}
+  {{ end }}
+</div>
+
+{{ end }}

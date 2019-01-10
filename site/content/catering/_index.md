@@ -11,5 +11,5 @@ will contact you to help plan your event.
 
 <h3 class="f4 b lh-title mb2 mt2">Please call (785) 856-2550 for catering requests, quotes, and information</h3>
 
-<img class="w-100 mw-100" src="/img/biggs-catering-menu-1.jpg" alt="Menu image" />
-<img class="w-100 mw-100" src="/img/biggs-catering-menu-2.jpg" alt="Menu image" />
+<img class="w-100 mw-100" src="/img/catering-menu-1.jpg" alt="Menu image" />
+<img class="w-100 mw-100" src="/img/catering-menu-2.jpg" alt="Menu image" />

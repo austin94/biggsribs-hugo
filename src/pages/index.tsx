@@ -10,7 +10,7 @@ import BbqSlide03 from '../images/bbq-slide-03.png'
 
 const IndexPage: React.FC = () => (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+    <SEO title="Home" keywords={[`bbq`, `lawrence`, `kansas`, `ribs`, `pulled pork`]} />
     <Jumbotron
       title="Biggs BBQ"
       subtitle="Your local BBQ joint"

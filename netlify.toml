@@ -1,8 +1,8 @@
 [build]
   command = "yarn build"
-  publish = "dist"
-[build.environment]
-  YARN_VERSION = "1.3.2"
+  publish = "public"
 
-[context.deploy-preview]
-  command = "yarn build-preview"
+[build.environment]
+  NODE_VERSION = "8"
+  YARN_VERSION = "1.3.2"
+  YARN_FLAGS = "--pure-lockfile --verbose"

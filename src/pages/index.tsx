@@ -10,7 +10,10 @@ import BbqSlide03 from '../images/bbq-slide-03.png'
 
 const IndexPage: React.FC = () => (
   <Layout>
-    <SEO title="Home" keywords={[`bbq`, `lawrence`, `kansas`, `ribs`, `pulled pork`]} />
+    <SEO
+      title="Home"
+      keywords={[`bbq`, `lawrence`, `kansas`, `ribs`, `pulled pork`]}
+    />
     <Jumbotron
       title="Biggs BBQ"
       subtitle="Your local BBQ joint"
@@ -57,9 +60,13 @@ const IndexPage: React.FC = () => (
           delivery as they are so much better when you are here!
         </p>
         <div className="tc">
-          <Link to="/order-online" className="btn raise">
+          <a
+            href="https://www.orderbiggsbbq.com"
+            target="_blank"
+            className="btn raise"
+          >
             Order Online
-          </Link>
+          </a>
         </div>
       </div>
     </div>

@@ -36,9 +36,13 @@ const Header: React.FC = () => (
           </Link>
         </li>
         <li>
-          <Link to="/order-online" className="pa3 no-underline db">
+          <a
+            href="https://www.orderbiggsbbq.com"
+            target="_blank"
+            className="pa3 no-underline db"
+          >
             Order Online
-          </Link>
+          </a>
         </li>
       </ul>
     </nav>

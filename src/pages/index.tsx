@@ -60,9 +60,13 @@ const IndexPage: React.FC = () => (
           delivery as they are so much better when you are here!
         </p>
         <div className="tc">
-          <Link to="/order-online" className="btn raise">
+          <a
+            href="https://www.orderbiggsbbq.com"
+            target="_blank"
+            className="btn raise"
+          >
             Order Online
-          </Link>
+          </a>
         </div>
       </div>
     </div>

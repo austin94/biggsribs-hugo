@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
@@ -28,11 +27,13 @@ const ContactPage: React.FC = () => {
           <h3 className="f4 b lh-title mb2 mt2">Location</h3>
           <p>2429 Iowa St, Lawrence, KS 66049</p>
           <GoogleMap isFrameless />
-          <ContactItem title="Hours">
+          <ContactItem title="Temporary COVID-19 Hours">
             <ul>
-              <li>Monday - Saturday: 11:00AM - 10:00PM</li>
-              <li>Sunday: 11:00AM - 9:00PM</li>
+              <li>Monday - Sunday: 11:00AM - 8:00PM</li>
             </ul>
+            <p>
+              Available for takeout, curbside carryout, delivery and catering.
+            </p>
           </ContactItem>
           <ContactItem title="Phone">
             <a href="tel:7858562550">(785) 856-2550</a>

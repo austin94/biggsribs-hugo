@@ -29,7 +29,8 @@ const ContactPage: React.FC = () => {
           <GoogleMap isFrameless />
           <ContactItem title="Temporary COVID-19 Hours">
             <ul>
-              <li>Monday - Sunday: 11:00AM - 8:00PM</li>
+              <li>Sunday - Thursday: 11:00AM - 8:00PM</li>
+              <li>Friday - Saturday: 11:00AM - 9:00PM</li>
             </ul>
             <p>
               Available for takeout, curbside carryout, delivery and catering.

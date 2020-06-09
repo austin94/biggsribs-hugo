@@ -22,8 +22,7 @@ const IndexPage: React.FC = () => (
     <div className="bg-grey-1 pv4">
       <div className="flex-l mhn1-l ph3 center mw7">
         <p className="w-100 mw-100 tc">
-          <strong className="b">COVID-19 Update:</strong> Takeout, delivery, and
-          catering available 11:00AM-8:00PM
+          Voted “Best BBQ” of Lawrence 9 years running by Top of the Hill
         </p>
       </div>
     </div>

@@ -27,7 +27,7 @@ const ContactPage: React.FC = () => {
           <h3 className="f4 b lh-title mb2 mt2">Location</h3>
           <p>2429 Iowa St, Lawrence, KS 66049</p>
           <GoogleMap isFrameless />
-          <ContactItem title="Temporary COVID-19 Hours">
+          <ContactItem title="Hours">
             <ul>
               <li>Monday - Saturday: 11:00AM - 9:00PM</li>
               <li>Sunday: 11:00AM - 8:00PM</li>

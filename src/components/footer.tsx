@@ -28,11 +28,6 @@ const Footer: React.FC = () => (
               </Link>
             </li>
             <li>
-              <Link to="/specials" className="link">
-                Specials
-              </Link>
-            </li>
-            <li>
               <Link to="/catering" className="link">
                 Catering
               </Link>

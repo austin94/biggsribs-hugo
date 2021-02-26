@@ -21,11 +21,6 @@ const Header: React.FC = () => (
           </Link>
         </li>
         <li>
-          <Link to="/specials" className="pa3 no-underline db">
-            Specials
-          </Link>
-        </li>
-        <li>
           <Link to="/catering" className="pa3 no-underline db">
             Catering
           </Link>

@@ -52,8 +52,8 @@ const Footer: React.FC = () => (
         <div>
           <h3 className="f4 b lh-title mb1 primary">Hours</h3>
           <ul className="mb3">
-            <li>Monday - Saturday: 11:00AM - 10:00PM</li>
-            <li>Sunday: 11:00AM - 9:00PM</li>
+            <li>Monday - Saturday: 11:00AM - 9:00PM</li>
+            <li>Sunday: 11:00AM - 8:00PM</li>
           </ul>
           <h3 className="f4 b lh-title mb1 primary">Location</h3>
           <ul className="mb3">

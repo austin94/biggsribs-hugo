@@ -11,8 +11,7 @@ import DinnerMenu1 from '../images/dinner-menu-1.jpg'
 import DinnerMenu2 from '../images/dinner-menu-2.jpg'
 import CateringMenu1 from '../images/catering-menu-1.jpg'
 import CateringMenu2 from '../images/catering-menu-2.jpg'
-import GlutenFreeMenu1 from '../images/gluten-free-menu-1.jpg'
-import GlutenFreeMenu2 from '../images/gluten-free-menu-2.jpg'
+import GlutenFreeMenu from '../images/gluten-free-menu.jpg'
 
 const MenuPreview: React.FC<{ menuSrc: string; menuAlt: string }> = ({
   menuSrc,
@@ -31,15 +30,8 @@ const MenusPage: React.FC = () => {
         <h2>Catering Menu</h2>
         <MenuPreview menuSrc={CateringMenu1} menuAlt="Catering Menu Page 1" />
         <MenuPreview menuSrc={CateringMenu2} menuAlt="Catering Menu Page 2" />
-        <h2>Gluten Free Menu</h2>
-        <MenuPreview
-          menuSrc={GlutenFreeMenu1}
-          menuAlt="Gluten Free Menu Page 1"
-        />
-        <MenuPreview
-          menuSrc={GlutenFreeMenu2}
-          menuAlt="Gluten Free Menu Page 2"
-        />
+        <h2>Gluten Sensitive Menu</h2>
+        <MenuPreview menuSrc={GlutenFreeMenu} menuAlt="Gluten Free Menu" />
       </div>
     </Layout>
   )
